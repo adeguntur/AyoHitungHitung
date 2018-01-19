@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cl"
+    tools:context="com.example.ade.ayohitung_hitung.PersegiPanjang">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mau hitung Apa Hari ini?"
+        android:textSize="25sp"
+        android:textColor="#ffff"
+        />
+
+
+    <Button
+        android:id="@+id/btnPersegi"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/txtWelcome"
+        android:background="#e9ff40"
+        />
+
+    <Button
+        android:id="@+id/btnPersegiPanjang"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="180dp"
+        android:layout_below="@id/txtWelcome"
+        android:background="#15abfc"
+        />
+
+    <Button
+        android:id="@+id/btnLingkaran"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@id/btnPersegi"
+        android:background="@drawable/lg"
+        />
+
+    <Button
+        android:id="@+id/btnSegitiga"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="200dp"
+        android:layout_below="@id/btnPersegi"
+        android:background="@drawable/sgst"
+        />
+</RelativeLayout>
+
+
+
+</ScrollView>
